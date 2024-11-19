@@ -216,3 +216,39 @@ footer {
     border: none;
     margin-left: 6px;
 }
+
+/* start-responsive */
+
+
+/* Media Queries */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* Mobile devices */
+    #service {
+        flex-direction: column; 
+      
+                                                      
+    
+    }
+}   
+
+@media (min-width: 481px) and (max-width: 760px) {
+
+    /* iPads, Tablet */
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+
+    /* small screens, laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1299px) {
+
+    /* Desktops, large screens */
+}
+
+@media (min-width: 1300px) {
+
+    /* Extra large screens, TV devices */
+}
