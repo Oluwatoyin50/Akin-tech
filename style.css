@@ -225,17 +225,18 @@ footer {
 @media (min-width: 320px) and (max-width: 480px) {
 
     /* Mobile devices */
-    #service {
-        flex-direction: column; 
-      
-                                                      
     
+    #service{
+        flex-direction: column;
     }
 }   
 
 @media (min-width: 481px) and (max-width: 760px) {
 
     /* iPads, Tablet */
+        #service{
+            flex-direction: column;
+        }
 }
 
 @media (min-width: 761px) and (max-width: 1024px) {
