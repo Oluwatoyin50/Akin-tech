@@ -229,6 +229,26 @@ footer {
     #service{
         flex-direction: column;
     }
+    #about-content{
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+    }
+    .what-we-do{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #newsletter > div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #newsletter > div h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 }   
 
 @media (min-width: 481px) and (max-width: 760px) {
@@ -236,6 +256,30 @@ footer {
     /* iPads, Tablet */
         #service{
             flex-direction: column;
+        }
+
+        #about-content{
+            flex-direction: column;
+        }
+
+        .about{
+            width: 100%;
+        }
+
+        .what-we-do{
+            width: 100%;
+            margin-top: 20px;
+        }
+         
+        #newsletter .btn{
+            display: inline-block;
+            width: 100%;
+        }
+
+        .email {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
         }
 }
 
